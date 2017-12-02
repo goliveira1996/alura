@@ -1,0 +1,20 @@
+Cancelamento de PI
+
+
+EXEMPLO DE PI
+P9743/122015
+P9744/122015
+P9745/122015
+
+Verificar se tem OF em OPEC>OPEC
+
+enviar script de cancelamento com o NumberCode e NumberYear para cada PI
+
+Enviar para o chamado colocando 
+
+suporte@scale.com.br,
+avieira@flixmedia.com.br,
+rfreitas@flixmedia.com.br,
+tissao@flixmedia.com.br,
+gustavo@scale.com.br,
+dcardoso@flixmedia.com.br

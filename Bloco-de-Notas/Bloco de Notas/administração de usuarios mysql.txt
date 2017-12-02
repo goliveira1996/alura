@@ -1,0 +1,4 @@
+GRANT ALL PRIVILEGES ON * . * TO 'scale'@'172.16.0.%';
+FLUSH PRIVILEGES;
+
+ select * from mysql.user\G

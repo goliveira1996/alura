@@ -1,0 +1,15 @@
+Acessar servidor Tux
+
+allan@172.16.0.1
+asdasd
+
+aplicar um ip route
+entrar com permissão de "su "ou "sudo bash"
+
+ip route del default via 191.241.239.213 dev eth5
+ip route add default via 192.168.0.1 dev eth4
+
+colocar sempre o default utilizando a mesma interface que o da ultima linha
+
+
+

@@ -1,0 +1,1 @@
+find . -type f -name '*.jpg' -mtime -120 -exec jpeg-recompress --accurate --strip --min 80 --method ms-ssim {} {} \;

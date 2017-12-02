@@ -1,0 +1,3 @@
+netstat -a -n -o     	//mostrar portas + PID de processos
+
+tskill PID		//mata o processo pelo PID

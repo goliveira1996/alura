@@ -1,0 +1,1 @@
+http://www.cinemark.com.br/programacao/gera_xml.jscale?unmerge=films&economicGroup=-Cinestar

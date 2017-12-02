@@ -1,0 +1,14 @@
+entrar no servidor 06 (ssh cnk_ssh@cnk-ldcweb-06)
+
+usando a seta para cima escolha LD_EXPORT
+
+Acesse HYSTORY
+
+DEPOIS MYSQL PORTAL
+
+select * from ClubeUsuario id = 254654/G
+
+update ClubeUsuario set email ='email' where id  = 2054555 ;
+
+pronto 
+

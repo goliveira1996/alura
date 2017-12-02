@@ -1,0 +1,19 @@
+id_participacao: 17506,17508,17507,17504,17505
+
+
+id_participante: 825
+
+
+delete from TriviaResposta where id_participacao in (17506,17508,17507,17504,17505);
+select * from TriviaResposta where id_participacao in ();
+
+
+delete from TriviaParticipacao where id_participante = 6298;
+select * from TriviaParticipacao where id_participante = 6298;
+
+
+delete from TriviaParticipante where email = 'agaldino@scale.com.br';
+select * from TriviaParticipante where email = 'agaldino@scale.com.br';
+
+
+

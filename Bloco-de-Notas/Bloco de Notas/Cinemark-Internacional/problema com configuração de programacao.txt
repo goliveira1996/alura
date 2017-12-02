@@ -1,0 +1,11 @@
+Problemas com configuração de periodo de programação Colombia
+
+-Entrando na tela da programação do periodo correto, clique no botao do lado do botao de ver a programação, veja as opções de configuração no select do lado.
+
+
+Verificar o dia em que está com erro na tabela PrgProgramacaoConfig
+
+Após selecionar todos as configurações que possuem esse dia, faça o mesmo com a tabela PrgProgramacaoConfigDias.
+
+Após selecionar todos, deletar o dia na tabela PrgProgramacaoConfigDias.
+

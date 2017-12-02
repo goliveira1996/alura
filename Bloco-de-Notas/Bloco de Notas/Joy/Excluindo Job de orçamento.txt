@@ -1,0 +1,6 @@
+Excluindo Job de orçamento
+
+Pegar o id do job e ir na tabela CustoInterno
+
+Verificar se existe 2 e excluir o que foi solicitado.
+

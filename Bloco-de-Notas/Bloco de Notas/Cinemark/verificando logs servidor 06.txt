@@ -1,0 +1,17 @@
+servidor 05
+
+
+Entrar na pasta: cd /var/log/tomcat6 ls -ltrh
+
+Digite: less catalina.out
+
+//Insira SHIFT+G (G maiusculo) para ir até o final da pagina
+//Para filtrar uma palavra acima use ? "palavra"
+//Para filtrar uma palavra para baixo use / "palavra"
+
+
+Ao localizar o error tente verificar sua classe e metodo
+
+O problema pode estar em N lugares
+
+

@@ -1,0 +1,16 @@
+Liberando espaço em disco
+
+-Acesse a maquina designada
+-Utilize "ip" -1root //caso seja cinemark Intralab
+
+Vasculhe arquivos de logs antigos nas pastas abaixo:
+
+-/opt/tomcat7/logs ls -ltrh
+-/opt/tomcat6/logs ls -ltrh
+-/var/scale/deploy/? ls -ltrh
+
+
+Aplique o comando >> rm nome-do-arquivo-data-**.tipo
+
+Após isso utilize df -h para verificar o espaço disponivel em disco
+

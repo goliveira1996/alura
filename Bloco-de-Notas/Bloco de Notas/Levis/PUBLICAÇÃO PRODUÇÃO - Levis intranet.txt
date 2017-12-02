@@ -1,0 +1,37 @@
+PUBLICAÇÃO Levis intranet PRODUÇÃO LEVIS
+
+Servidor: usloft4600
+
+comandos:
+
+cd
+
+cd git/levis-intranet/ 
+
+ls -l
+
+git pull
+
+git log
+*Verificar SHA-ID (verificando o comentário)
+
+history | grep mvn
+
+mvn -U clean package -DskipTests
+
+history | grep mv
+	
+*Mover arquivo para pasta /next
+mv levis-webservice/target/levis-webservice.war ~/deploy/next/
+
+cd ~/deploy/next/
+* entrar na pasta
+
+ls -l
+* verificar existencia do arquivo
+
+history | grep publi
+
+publish levis-webservice
+* comando para publicar, neste caso a publicação foi feita somente em vendas, porém pode ser selecionado outro projeto para publicar (autorização, webservice)
+* Será gerada uma TAG para o commit

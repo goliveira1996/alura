@@ -1,0 +1,4 @@
+Alterar email remetente
+
+rodape igual ao da News.
+

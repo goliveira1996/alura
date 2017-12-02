@@ -1,0 +1,7 @@
+apt-get install certbot
+
+apt-get install python-certbot-apache -t jessie-backports
+
+certbot --apache
+
+/etc/init.d/apache2 restart

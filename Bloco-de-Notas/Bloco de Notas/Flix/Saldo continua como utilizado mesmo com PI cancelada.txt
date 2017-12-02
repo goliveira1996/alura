@@ -1,0 +1,5 @@
+Saldo continua como utilizado mesmo com PI cancelada
+
+ADV>Negociação>entra na negociação>editar>gravar
+
+depois saia e procure pela negociação novamente

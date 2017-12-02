@@ -1,0 +1,12 @@
+alteração de cliente na PI
+
+tabela insertionOrder = guarda informações da PI 
+tabela Negotiation = guardar informações da negociação
+
+Primeiro será necessário verificar qual o id do cliente
+ 
+select * from Client where cnpj = '76801166000179'
+ 
+Após descobrir o ID, basta executar o update na tabela InsertionOrder
+ 
+update InsertionOrder set client_id = id_do_cliente where codeNumber in (3483, 3484) and codeYear = 2016

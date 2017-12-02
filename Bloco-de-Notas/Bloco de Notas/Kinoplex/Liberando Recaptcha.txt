@@ -1,0 +1,1 @@
+iptables -I INPUT -s www.google.com -p tcp --sport 443 -j ACCEPT

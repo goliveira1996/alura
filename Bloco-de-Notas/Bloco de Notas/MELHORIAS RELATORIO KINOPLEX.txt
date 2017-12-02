@@ -1,0 +1,15 @@
+Alterações relatórios Kinoplex
+
+slide 10 - Alterar o link porque o relatorio não está sendo exibido pelo complexo e sim pela busca, buscar o relatorio pelas visualizações da programacao de cada complexo.
+*Exibir em mapa
+
+slide 12 - Alterar a visualização por gráfico
+
+slide 19 - Visualizar o relatorio por sessões/complexo
+
+slide 26 - Criar land pages de promoções para distinguir o foco de acesso
+
+*Criar diagnosticos e sugestões dos dados para melhorar os numeros.
+
+
+

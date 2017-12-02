@@ -1,0 +1,1 @@
+Caso esteja usando o IP 200.170.228.1 para a conexão da VPN do Kinoplex, trocar para o IP 177.135.129.138.

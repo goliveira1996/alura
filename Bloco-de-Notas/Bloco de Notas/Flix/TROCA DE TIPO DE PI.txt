@@ -1,0 +1,3 @@
+TROCA DE TIPO DE PI
+
+Não é possivel fazer a troca do tipo da PI depois que ela for lançada, devido ao próprio sistema ser definido deste modo.

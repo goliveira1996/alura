@@ -1,0 +1,18 @@
+update Clubeusuario set email = 'email@email.com' where id= idpessoal
+
+Logar com perfil "Boleto";
+
+Acessar: 
+export
+depois mysql/portal
+
+
+Localizar a tabela no banco Intranet;
+
+Dar um select * from Tabel where like '%email%'\G
+
+update ClubeUsuario set email = 'nessapviana@gmail.com' where id =2132405;
+
+Pegar login e senha, acessar o site custumers;
+
+Ir em ultimos pedidos e gerar boleto.

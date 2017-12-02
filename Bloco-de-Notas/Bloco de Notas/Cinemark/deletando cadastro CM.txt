@@ -1,0 +1,19 @@
+select id from ClubeUsuario where id = 2075562
+delete from ClubeUsuario where id = 2075562
+
+delete from ClubeCinemaPreferencial where usuario_id in (select id from ClubeUsuario where id = 2075562)
+
+delete from ClubeUsuarioSincronizacaoInfo where id_usuario in (select id from ClubeUsuario where id = 2075562)
+
+delete from ClubeAvisoEstreia where usuario_id in (select id from ClubeUsuario where id = 2075562)
+
+delete from ClubeUsuarioMeiosComunicacao where id_usuario in (select id from ClubeUsuario where id = 2075562)
+
+delete from ClubeUsuarioRedesSociais where id_usuario in (select id from ClubeUsuario where id = 2075562)
+
+select id from ClubeQuestionario where usuario_id in (select id from ClubeUsuario where id = 2075562)
+
+
+delete from ClubeResposta where questionario_id in (select id from ClubeQuestionario where usuario_id in (select id from ClubeUsuario where id = 2075562))
+
+delete from Mensagem where usuario_id in (select id from ClubeUsuario where id = 2075562)

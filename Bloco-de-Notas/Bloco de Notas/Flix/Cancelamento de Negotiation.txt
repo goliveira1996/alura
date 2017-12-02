@@ -1,0 +1,20 @@
+EXEMPLO DE Negotiation
+
+F1333/82015
+
+Pesquisar a negociação em OPEC>Neogição
+
+A partir do numero da PI verificar se possui OF.
+
+enviar script de cancelamento com update na tabela de Negotiation
+
+Enviar para aprovação no chamado colocando em cópia
+
+suporte@scale.com.br,
+avieira@flixmedia.com.br,
+rfreitas@flixmedia.com.br,
+tissao@flixmedia.com.br,
+gustavo@scale.com.br,
+dcardoso@flixmedia.com.br
+
+Após aprovação, criar arquivos de cancelamento para PI existentes na Negociação e enviar para os e-mails para realizar a execução.

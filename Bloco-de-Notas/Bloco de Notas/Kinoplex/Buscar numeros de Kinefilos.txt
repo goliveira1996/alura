@@ -1,0 +1,11 @@
+rodar query
+
+no servidor 84 (Kinoplex site)
+
+select COUNT(C.id) from Contato C inner join ClubeUsuario U on U.id=C.id where C.status_email = 1 and U.cinema_id > 0;
+
+
+
+
+//Clube//	select (COUNT id) from ClubeUsuario;
+

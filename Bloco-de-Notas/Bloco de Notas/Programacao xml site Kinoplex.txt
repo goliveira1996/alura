@@ -1,0 +1,14 @@
+Atualizando site Kinoplex
+
+Abrir Aker
+Após conectado acessar http://www.kinoplex.com.br/admin/runjob.jsp?job=kinoplex.comum.jobs.HTMLGeneratorJob no browser
+
+Acessar servidor 49 Kinoplex
+
+Copiar o arquivo programacao.xml 
+
+abrir o SFTP e colocar no caminho public_html>site
+
+
+
+

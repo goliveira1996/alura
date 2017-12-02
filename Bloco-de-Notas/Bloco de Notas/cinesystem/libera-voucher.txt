@@ -1,0 +1,1 @@
+insert into FidVoucherResgate ( registro_alteracao,registro_ativo ,registro_criacao,  registro_timestamp,  responsavel_alteracao ,  data_geracao,  data_validade ,  origem,  numero , brinde_id,  participante_id ,  transacao_id ) values (NOW(), 1, NOW(), 'AJUSTE', NULL, NOW(), NULL, 'MIGRACAO-DIF', floor(100000000+(rand()*(10000000-99999999))),1, 153939, NULL);

@@ -1,0 +1,18 @@
+			Problema com programação do filme Kinoplex
+
+
+
+ERRO: Warning: XSLTProcessor::transformToXml(): runtime error: file /kinoplex/site/ line 26 element if in /kinoplex/site/wp-content/libs/xslt2.lib.php on line 50
+
+Warning: XSLTProcessor::transformToXml(): Variable ‘today_before’ has not been declared. in /kinoplex/site/wp-content/libs/xslt2.lib.php on line 50
+
+Warning: XSLTProcessor::transformToXml(): xmlXPathCompiledEval: 1 objects left on the stack. in /kinoplex/site/wp-content/libs/xslt2.lib.php on line 50
+Temporariamente sem programação
+
+
+*Verificar se existe programação para o filme na intranet Kinoplex (27)
+
+*Caso contrário, verificar no servidor 	RDP no banco, nas tabelas prProgramacao**
+
+ou rodar Xml novamente
+

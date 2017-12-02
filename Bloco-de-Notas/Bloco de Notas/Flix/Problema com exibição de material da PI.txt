@@ -1,0 +1,7 @@
+Problema com exibição de material da PI
+
+Buscar o nome do produto (titulo) e procurar na página de associação
+
+Caso o material vença no dia atual ele não está sendo exibido devido a um erro no ADV que já foi repassado para publicação.
+
+SOLUÇÃO TEMPORÁRIA: informar o usuário a criar uma nova PI para ser exibida até hoje com o material associado.

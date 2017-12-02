@@ -1,0 +1,34 @@
+BUSCA NAS 2 TABELAS
+Select U.Id, U.ativo, U.cpf, U.email, U.data_validacao, U.nome, U. participa_loyalty, C.* from ClubeUsuario U 
+left join ClubeUsuarioCartaoDependente C on C.id_titular = U.id
+where U.email = 'dorabarthem@bol.com.br' 
+
+
+BUSCA NO CADASTRO DO CLIENTE
+Tabela: ClubeUsuario
+select * from ClubeUsuario where cpf = 70766196487;
+select * from ClubeUsuario where email = 'erikarovaris@gmail.com.br';
+	
+
+
+BUSCA NO CADASTRO DO CARTAO DO CLIENTE
+Tabela: ClubeUsuarioCartaoDependente:
+select * from ClubeUsuarioCartaoDependente where id_titular = 2124316;
+select * from ClubeUsuarioCartaoDependente where id_dependente = 1303933
+select * from ClubeUsuario where id = 1275329;
+select * from ClubeUsuarioCartaoDependente where nr_cartao = 305945410838;
+
+MOSTRAR TABELAS
+show tables
+
+
+GERAR MD5 (LINK)
+select *, md5(concat(email, cpf)) from ClubeUsuario  where email = 'vhaldnei@gmail.com'	
+
+
+Busca padrão
+
+select * from NOMEDATABELA where NOMEDACOLUNA = '';
+
+
+

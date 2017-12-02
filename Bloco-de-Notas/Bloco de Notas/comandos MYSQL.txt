@@ -1,0 +1,17 @@
+//Lista dos comandos básicos
+mysql> show databases; //mostra todos banco de dados
+ 
+mysql > use nome_banco; //seleciona um banco de dados para trabalhar
+ 
+mysql> show tables; //mostra todas as tabelas do banco selecionado
+ 
+mysql> desc ou describe // mostra detalhes da tabela, colunas e tipo de dados
+ 
+mysql> SELECT @ @datadir; //mostra o diretório de dados do mysql
+cada banco de dados é separado por uma pasta com o nome do banco
+ 
+mysql> select count(*) from tabela; //conta quantidade de registros(linhas) da tabela selecionada
+ 
+mysql> CREATE DATABASE modelo; //cria um banco de dados chamado modelo
+ 
+mysql > DROP DATABASE modelo; // Exclui o banco de dados chamado modelo e todos os dados dentro dele

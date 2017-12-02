@@ -1,0 +1,29 @@
+deixar planilha de acordo com o modelo (MODELO_TOTVS.XSL), prestando atencao na coluna F2 que é o length do numero do produto
+
+ao salvar, utilizar a formatação do excel 97
+
+importar estes dados na base com os nomes
+TOTVSC
+TOTVSF
+TOTVSD
+
+*Alterar nomes das colunas no sql server para que fiquem igual ao excel
+
+Fazer backup de colunas nas tabelas (colocando "_ant")
+PrgCopia
+PrgDistribuidoraLocal
+PrgFilme
+
+* atencao o tipo da coluna Codigo_SCALE na tabela TOTVSC deve ser float
+
+rodar as queires sem erro
+
+validar dando um select nas tabelas
+PrgCopia
+PrgDistribuidoraLocal
+PrgFilme
+
+
+
+
+

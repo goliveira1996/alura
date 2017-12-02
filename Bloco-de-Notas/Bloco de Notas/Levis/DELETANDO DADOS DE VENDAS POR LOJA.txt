@@ -1,0 +1,7 @@
+DELETANDO DADOS DE VENDAS POR LOJA
+
+delete from ItemVenda where venda_id in ( select id from Venda where code_loja = '000015');
+
+delete from Venda where code_loja = '000015';
+
+delete * from Registro where code_remetente = '000015';

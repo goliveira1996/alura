@@ -1,0 +1,24 @@
+Publicação GMUD ADV - Homolog
+
+Entrar no projeto pelo Git e escolher a branch correta (tudo que não é ADV 1.5 deve ser publicado no servidor “Flix-Homolog.RDP”)
+
+Após isso gerar o pacote com o Profile correto:
+mvn clean package -Phmlg -DskipTests
+
+Depois de gerado o pacote, acessar o servidor RDP 
+
+Dentro do servidor, pare o JBoss 7.1 (CMD) e passe o arquivo “advertising.war” para a pasta “Documents/Scale/Deploy/Next”
+
+Mova o arquivo advertising.war para c://JBoss7.1.1/deployment/standalone
+
+APÓS ISSO REINICIE O JBOSS E VERIFIQUE SE NÃO APRENSENTOU NENHUM ERRO
+No CMD: cd JBoss7.1.1/standalone/bin/standalone.bat
+
+
+
+
+
+
+acesso Flix-Homolog
+
+senha: Nuncaesquecerei@123

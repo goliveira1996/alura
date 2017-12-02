@@ -1,0 +1,26 @@
+BACKUP DE BASE PELO MYSQL
+
+Entre no mysql 
+
+procure a pasta onde o arquivo sera salvo
+
+digite 
+
+mysqldump Levis > Levis.sql &
+
+Após isso o arquivo será salvo na pasta onde voce inserio o código
+
+normalmente: etc/temp#
+
+Após isso só dar o comnado 
+
+cat kino_prod.sql | mysql kinoplex_site & 
+
+
+
+update ClubePergunta set enunciado = 'Desejo receber informações da programação no e-mail' where id = 16;
+
+
+update ClubePergunta set enunciado = 'Desejo receber informacoes de promoções e newsletters por e-mail' where id = 10;
+
+

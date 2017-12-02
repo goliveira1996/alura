@@ -1,0 +1,21 @@
+RESTORE DE BASE MYSQL LEVIS HOMOLOG
+
+Acessar o FTP de produção e ir na pasta /backup 
+
+colar o backup (formato Levis.2016-**_**h.sql.gz) para sua máquina
+
+Após isso passar o arquivo para /var/temp/ e colocar o arquivo la
+
+descompactar arquivo
+
+gunzip Levis.2016-07-18_17h.sql.gz
+
+Após isso dar o comando:
+
+cat Levis.2016-07-18_17h.sql | mysql Levis &
+
+Após isso aguardar
+
+
+
+** o "&" cria um processo em segundo plano e gera um ID, para verificar o progresso do precesso (ps ax | grep IDPROCESSO)

@@ -1,0 +1,10 @@
+Lista usuarios mysql
+select * from mysql.user\G
+
+Dar permissão para o usuario
+GRANT ALL PRIVILEGES ON * . * TO 'homolog_site'@'usloft4577.serverprofi24.com';
+
+
+FLUSH PRIVILEGES;
+
+

@@ -1,0 +1,1 @@
+ nagios -v /usr/local/nagios/etc/nagios.cfg

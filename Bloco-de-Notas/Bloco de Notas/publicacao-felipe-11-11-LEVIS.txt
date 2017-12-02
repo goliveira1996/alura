@@ -1,0 +1,5 @@
+publicacao felipe
+
+
+branch master contem o que está em producao, caso tenha modificacoes no branch do felipe, devemos mergear para master e publicar com publish all
+

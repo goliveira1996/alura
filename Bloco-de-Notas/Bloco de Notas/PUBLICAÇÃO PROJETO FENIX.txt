@@ -1,0 +1,11 @@
+PUBLICAÇÃO PROJETO FENIX
+
+git pull
+
+verificar sha id
+
+mvn clean -U package -DskipTests
+
+mv arquivo.war ~/deploy/next
+
+publish subprojeto

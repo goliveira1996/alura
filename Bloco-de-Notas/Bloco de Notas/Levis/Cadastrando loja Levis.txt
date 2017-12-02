@@ -1,0 +1,13 @@
+Cadastrando loja Levis
+
+Entrar em contato com o franqueado ou contato
+
+Se apresentar e pegar informações da Loja (usar a tabela Loja como referencia)
+
+Após isso pegar conexão com o banco 
+
+Falar com o Felipe para fazer a instalação do webservice no sistema
+
+Após isso verificar se está com a tabela de Configuração preenchida para aquela empresa.
+
+Após isso fazer importação manualmente.

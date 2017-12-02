@@ -1,0 +1,8 @@
+Fazer merge 	DEV 	TO 	MASTER	
+
+Abrir SmartGit e dar pull no projeto
+
+Após isso entrar no branch que irá receber o merde (normalmente master) após isso clicar com o direito no branch que sairá o merge e escolher "merge" 
+
+Verificar se nao acontece erros nos arquivos e depois dar "commit"
+

@@ -1,0 +1,41 @@
+PUBLICAÇÃO EM HOMOLOG LEVIS
+
+Servidor: 209.239.124.44
+
+comandos:
+
+cd
+
+cd git/levis-intranet/ 
+
+ls -l
+
+git pull
+*Login: allan_galdino || agaldino@scale.com.br
+*senha: allan1997
+
+git log
+*Verificar SHA-ID
+
+history | grep mvn
+
+mvn -U clean package -Plab -DskipTests
+*Gerar pacote em lab
+
+history | grep mv
+
+mv levis-vendas/target/levis-vendas.war /home/levis/deploy/next/
+*Mover arquivo para pasta /next
+
+cd /home/levis/deploy/next/
+* entrar na pasta
+
+ls -l
+* verificar existencia do arquivo
+
+history | grep publi
+
+
+/home/levis/publish levis-vendas
+* comando para publicar, neste caso a publicação foi feita somente em vendas, porém pode ser selecionado outro projeto para publicar (autorização, webservice)
+* Será gerada uma TAG para o commit

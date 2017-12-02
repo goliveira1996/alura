@@ -1,0 +1,10 @@
+ADICIONANDO CINEMA RPS
+
+-Solicitar imagem ao cliente
+-fazer alterações e pegar somente metade da imagem
+-entrar no servidor 06 da cinemark
+-entrar na base "portal"
+-escolher a tabela "WebSiteTipoIngresso"
+-executar o comando = insert into WebSiteTipoIngresso (id_theatre, ticket_type) values (id_theater, 2);
+Após isso verificar
+

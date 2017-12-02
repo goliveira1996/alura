@@ -1,0 +1,9 @@
+Erro ao acessar programação ou cinema
+
+
+Problema de query travada no servidor, acessar RDP 50 atraves do Aker Client e verificar atividades no SQL Server.
+
+Eliminar processo com maior tempo de espera e bloqueado.
+
+Guardar query para saber o erro e após isso eliminar o processo.
+

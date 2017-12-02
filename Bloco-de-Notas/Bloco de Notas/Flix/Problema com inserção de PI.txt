@@ -1,0 +1,4 @@
+Problema com inserção de PI na passo 2
+
+resolução: Pedir para que seja reiniciado o Adv
+

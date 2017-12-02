@@ -1,0 +1,3 @@
+find . -type f -name "server.log_2016-07-[01]?T??-??-??" -exec bzip2 {} \; -print &
+
+mv server.log_2016-07-**T**-**-**.bz2 2016-07/

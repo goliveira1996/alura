@@ -1,0 +1,14 @@
+Validação de cadastro Kinefilos
+
+entrar no servidor 84
+
+mysql
+
+use kinoplex_site
+
+Dar um 
+
+update Contato set data_validacao = '2016-10-05 10:00:00' where id = xxxx;
+
+da tabela Contato.
+

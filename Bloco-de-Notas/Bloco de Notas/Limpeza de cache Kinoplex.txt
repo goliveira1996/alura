@@ -1,0 +1,18 @@
+LIMPEZA DE CACHE
+
+
+
+Entrar no servidor de balanceamento 
+
+Entrar na pasta cd /dev/shm/nginx-cache/
+
+Comando: find . -type f -delete
+
+restart no nginx /etc/init.d/nginx restart
+
+Acessar: http://www.kinoplex.com.br/pagespeed_admin
+
+Escolhar no menu: Purge Cache
+
+Clicar em Purge Entire Cache
+

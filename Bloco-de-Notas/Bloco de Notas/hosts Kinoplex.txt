@@ -1,0 +1,11 @@
+
+http://nagiosql.scale.com.br/
+admin
+n@g$c@l3
+
+
+Servidores Web: usloft4573.serverprofi24.com e usloft4577.serverprofi24.com
+Servidores MySQL: usloft4583.serverprofi24.com e usloft4584.serverprofi24.com
+Balanceador: usloft3519.serverprofi24.com
+
+

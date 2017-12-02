@@ -1,0 +1,10 @@
+Alterando senha Colombia
+
+Acessar aplicação através de https://booking-co.cinemark.com/
+
+usuario: scaleadmin
+senha:   Q!W@E#R$
+
+Alterar na administração de usuário.
+
+Após isso acessar servidor 173.224.125.245 e verificar no mysql se o pwd_authorized_key está com o fuso horário correto do país.

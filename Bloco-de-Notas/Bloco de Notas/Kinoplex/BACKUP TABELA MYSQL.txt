@@ -1,0 +1,7 @@
+mysqldump Levis ProdutoCodigoBarra > ProdutoCodigoBarra.sql
+
+RESTORE:
+
+mysql -u usuario -p Levis < ProdutoCodigoBarra.sql
+
+Após isso digitar a senha

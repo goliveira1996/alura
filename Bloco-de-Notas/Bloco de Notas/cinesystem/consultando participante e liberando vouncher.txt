@@ -1,0 +1,18 @@
+BASE > CLUBE DA PIPOCA
+
+desc FidParticipante
+desc FidParticipanteEmail
+
+select * from FidParticipante where cpf = 10451152409 // select * from FidParticipanteEmail where email = "eduardofaferreira@outlook.com" // BUSCA O ID DO CARA APARTIR DO CPF OU EMAIL
+
+select pontuacao_atual from FidParticipante where id = 213482 // PONTUACAO ATUAL DO CARA
+
+select * from FidCasaPontuacao // MOSTRA O ID DO PREMIO EQUIVALENTE A PONTUACAO DO CARA (para MUDAR no script na hora de liberar o VAUNCHER)
+
+desc FidTransacao
+select * from FidTransacao where participante_id = 213482 // soma a pontuacao na transação *PARA GERAR O PREMIO ESSE VALOR TEM QUE BATER COM O A SOMA DA PONTUACAO CARA
+
+
+
+	//LIBERAR o VAUNCHER (TROCAR O ID DO PREMIO E O ID DO CARA NO FINAL DO SCRIPT)
+insert into FidVoucherResgate ( registro_alteracao,registro_ativo ,registro_criacao,  registro_timestamp,  responsavel_alteracao ,  data_geracao,  data_validade ,  origem,  numero , brinde_id,  participante_id ,  transacao_id ) values (NOW(), 1, NOW(), 'AJUSTE', NULL, NOW(), NULL, 'MIGRACAO-DIF', floor(100000000+(rand()*(10000000-99999999))),IDDOPREMIO, IDDOCARA, NULL);

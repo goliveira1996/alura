@@ -1,0 +1,16 @@
+Exclusão de cadastro Kinefilos
+
+entrar no servidor 84
+
+mysql
+
+use kinoplex_site
+
+realizar
+status_email=0;
+nome = quaqluer
+cpf= null
+email = qualquer
+
+das tabelas Contato, ClubeUsuario.
+

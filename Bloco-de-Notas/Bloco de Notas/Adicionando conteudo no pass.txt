@@ -1,0 +1,6 @@
+pass insert caminho/adição
+
+modelo
+
+pass insert Timbro/Servidores-RDP/ttclientadmin@52.67.190.91
+

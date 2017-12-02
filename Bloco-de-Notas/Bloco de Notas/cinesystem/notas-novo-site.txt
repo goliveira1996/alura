@@ -1,0 +1,38 @@
+cinesystem 1,2 - JAR
+/home/cinesystem/jars/
+
+cinesystem 3 - Volume externo
+Arquivos site + base
+
+
+
+
+[8:26 AM] Flavio Maia: sincronização dos arquivos parte do servidor cinesystem3 (): /mnt/volume-nyc1-01/cinesystem/web/site
+[8:27 AM] Flavio Maia: o usuario é o "rsyn"
+[8:27 AM] Flavio Maia: rsync
+[8:27 AM] Flavio Maia: fazer "su - rsync" se for fazer manual
+[8:27 AM] Flavio Maia: Geração do programacao.xml:
+[8:27 AM] Flavio Maia: Como root:
+    xsltproc --stringparam docroot  /mnt/volume-nyc1-01/cinesystem/web/site  /mnt/volume-nyc1-01/cinesystem/web/site/includes/merge_cinemas_xml.xsl  /mnt/volume-nyc1-01/cinesystem/web/site/_programacao.xml >  /mnt/volume-nyc1-01/cinesystem/web/site/programacao.xml
+[8:29 AM] Flavio Maia: Como "rsync":
+
+Sincronização do site:
+    cd /mnt/volume-nyc1-01/cinesystem/web/site
+    rsync -avz  ./ rsync@159.203.180.8:/home/cinesystem/web/site/
+    rsync -avz  ./ rsync@67.205.187.146:/home/cinesystem/web/site/
+    rsync -avz  ./ rsync@165.227.90.83:/home/cinesystem/web/site/
+Retaguarda
+    cd /mnt/volume-nyc1-01/cinesystem/web/retaguarda
+    rsync -avz  ./ rsync@159.203.180.8:/home/cinesystem/web/retaguarda/
+    rsync -avz  ./ rsync@67.205.187.146:/home/cinesystem/web/retaguarda/
+    rsync -avz  ./ rsync@165.227.90.83:/home/cinesystem/web/retaguarda/
+Sincronização do Clube da Pipoca (PHP):
+    cd /mnt/volume-nyc1-01/cinesystem/web/clube
+    rsync -avz  ./ rsync@159.203.180.8:/home/cinesystem/web/clube/
+    rsync -avz  ./ rsync@67.205.187.146:/home/cinesystem/web/clube/
+    rsync -avz  ./ rsync@165.227.90.83:/home/cinesystem/web/clube/
+Sincronização do Admin do Clube da Pipoca (Angular):
+    cd /mnt/volume-nyc1-01/cinesystem/web/admin
+    rsync -avz  ./ rsync@159.203.180.8:/home/cinesystem/web/admin/
+    rsync -avz  ./ rsync@67.205.187.146:/home/cinesystem/web/admin/
+    rsync -avz  ./ rsync@165.227.90.83:/home/cinesystem/web/admin/

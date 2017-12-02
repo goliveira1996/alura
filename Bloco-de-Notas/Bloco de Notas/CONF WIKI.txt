@@ -1,0 +1,11 @@
+suporte@scale.com.br
+q1o0w2i9e3u8r4y7t5
+codigo: scale-1328
+
+ID CLIENTE: 661973811802-5l29kf7l9gtqupllokjjssl7vj27gvuf.apps.googleusercontent.com
+CHAVE SECRETA: obrRKeT5EHpdJOmityc-g55k
+
+/var/lib/mediawiki/extensions
+/var/lib/mediawiki/maintenance
+
+

@@ -1,0 +1,230 @@
+	get pull - atuliza e baixa a ultima versao do projeto
+	get push - 'sobe' o que voce alterou
+
+	history
+
+
+
+
+
+    pwd - O comando pwd lhe permite saber em qual diretório você está no momento, onde pwd significa "print working directory".
+
+        Executando "pwd" no diretório Desktop mostrará "~/Desktop". Observe que o Terminal do Gnome também mostra esta informação na barra de títulos da janela. Veja a imagem de exemplo no topo desta página. 
+
+    cd - Este comando nos permite se deslocar entre a árvore de diretórios do sistema. Quando abrimos um terminal ou seção shell, você entra direto no seu diretório pessoal. Para mover-se pelo sistema de arquivos você deve usar o cd.
+
+        "cd /" para ir ao diretório raiz.
+
+        "cd" para ir ao seu diretório pessoal.
+
+        "cd .." para acessar um diretório de nível acima do atual.
+
+        ”cd -” para voltar ao diretório que se encontrava antes de mudar.
+
+        Para navegar através múltiplos níveis de diretórios em só comando, use por exemplo, "cd /var/www", que o levará diretamente ao sub-diretório /www do diretório /var. 
+
+    cp – Copia arquivos e diretórios.
+
+        "cp file foo" para fazer uma cópia exata do arquivo "file" dando-lhe o nome de "foo".
+
+        "sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf-bkp" para gerar uma cópia de segurança exata do arquivo "/etc/X11/xorg.conf" dando-lhe o nome de "/etc/X11/xorg.conf-bkp". 
+
+    mv - Este comando move arquivos e diretórios, sendo muito usado também para renomear um determinado arquivo.
+
+        ”mv arquivo1 arquivo2” para renomear o arquivo “arquivo1” localizado no diretório pessoal do usuário para “arquivo2” no mesmo local.
+
+        "mv foo ~/Desktop" moverá o arquivo "foo" para seu diretório Desktop sem alterar seu nome. Você deve especificar um novo nome se quiser renomear um arquivo. 
+
+    ls - Comando utilizado para listar o conteúdo de um diretório. Usado com certas opções, é possível ver o tamanho dos arquivos, quando foram criados, e as permissões de cada um.
+
+        "ls ~" para mostrar os arquivos que estão em seu diretório pessoal.
+
+        ”ls -hal ~” para mostrar os arquivos que estão em seu diretório pessoal, inclusive os ocultos (-a) em forma de uma listagem (-l) e com as informações de tamanho mais amigável a nós seres humanos (-h). 
+
+    rm - Utilize este comando para remover (deletar) arquivos e opcionalmente diretórios. Por padrão o comando rm exibe um prompt onde o usuário deve confirmar a exclusão de cada arquivo, digitando a letra “y” seguido de “Enter”.
+
+        ”rm arquivo1” para remover o arquivo chamado “arquivo1” do diretório corrente após confirmação no prompt.
+
+        ”rm -f arquivo1” para remover o arquivo chamado “arquivo1” do diretório corrente sem que lhe seja exibido o prompt de confirmação.
+
+        ”rm -R ~/temp/” para remover de forma recursiva o diretório /temp localizado em sua pasta pessoal e todo seu conteúdo, seja ele arquivos e outras arvores de sub-diretórios. 
+
+    mkdir - Comando cuja finalidade é permitir a criação de um ou mais diretórios.
+
+        "mkdir musicas" para criar um diretório chamado “musicas” dentro do diretório corrente. 
+
+    chmod – Altera as permissões de acesso de arquivos e diretórios, não alterando estes atributos de links simbólicos passados na linha de comando, mais sim as permissões dos arquivos aos quais eles se referem. Para maiores detalhes sobre o sistema de permissões de arquivos e diretórios no Linux aconselhamos este link aqui do Guia Foca GNU/Linux. 
+
+Leitura (r)
+	
+
+Escrita (w)
+	
+
+Execução (x)
+	
+
+	
+
+Octal
+
+0
+	
+
+0
+	
+
+0
+	
+
+	
+
+0
+
+0
+	
+
+0
+	
+
+1
+	
+
+	
+
+1
+
+0
+	
+
+1
+	
+
+0
+	
+
+	
+
+2
+
+0
+	
+
+1
+	
+
+1
+	
+
+	
+
+3
+
+1
+	
+
+0
+	
+
+0
+	
+
+	
+
+4
+
+1
+	
+
+0
+	
+
+1
+	
+
+	
+
+5
+
+1
+	
+
+1
+	
+
+0
+	
+
+	
+
+6
+
+1
+	
+
+1
+	
+
+1
+	
+
+	
+
+7
+
+0  (zero) permissão negada
+1   permissão de execução
+2   permissão de gravação
+3   permissão de gravação e execução
+4   permissão de leitura
+5   permissão de leitura e execução
+6   permissão de leitura e gravação
+7   soma de todas as permissões
+
+    ”chmod 744 file” para alterar as permissões do arquivo “file” de modo ao Dono ter total permissão (leitura, execução e escrita) enquanto que os usuários pertencentes ao Grupo e os Outros terão permissão apenas de leitura.
+
+    ”chmod -R 744 temp/” para alterar as permissões de forma idêntica ao exemplo anterior, porém do sub-diretório /temp e todo seu conteúdo de forma recursiva. 
+
+    chown – Altera o proprietário e o grupo de arquivos e diretórios.
+
+        ”chown fulano:vendas file” para alterar o arquivo “file” para ter como Dono o usuário “fulano” e o Grupo como “vendas”.
+
+        ”chown -R ciclano:compras temp/” para alterar o sub-diretório /temp e todo seu conteúdo de forma recursiva para ter como Dono o usuário “ciclano” e o Grupo como “compras”. 
+
+    diff – Usado para comparar o conteúdo de dois arquivos, exibindo a diferença entre eles.
+
+        ”diff file foo” para ver a diferença entre o conteúdo do arquivo “file” e o arquivo “foo”. 
+
+    find – Comando utilizado para procurar por arquivos na arvore de diretórios. Se um caminho não for passado ao comando find a busca será feita no diretório corrente.
+
+        ”find ~/temp/file” para procurar pela ocorrência de um arquivo chamado “file” no sub-diretório /temp do diretório pessoal do usuário. 
+
+    locate – Pesquisa em uma base de dados de nomes de arquivos por nomes que satisfaçam um determinado padrão. O comando slocate é a versão segura do locate, pois não exibe arquivos para os quais o usuário não tenha permissão de acesso. Como a arvore de arquivos e diretórios esta sempre sendo atualizada é necessário que esta base de dados também o seja, por tanto é sempre aconselhável antes de executar estes comandos atualizar a base executando ”updatedb”.
+
+        ”locate ~/file” para pesquisar por um arquivo que corresponda a expressão “file” no diretório pessoal do usuário. Como este comando pesquisa em um banco de dados, se não for passado ao comando o caminho desejado ele pesquisará em toda sua base de dados, correspondente a toda arvore de diretórios do sistema. 
+
+    tar Usado para armazenar ou extrair arquivos TAR (Tape ARchive). Estes arquivos TAR são os chamados “tarfile” ou “tarball”.
+
+        ”tar cvf my_ogg_files.tar *.ogg” para criar um arquivo TAR chamado “my_ogg_files.tar” contendo todos os arquivos de extensão “.ogg” do diretório corrente. Notar que a extensão “.tar” não é obrigatória, mais aconselhável para facilitar a identificação do arquivo.
+
+        ”tar tvf my_ogg_files.tar” para exibir todo o conteúdo do arquivo TAR chamado “my_ogg_files.tar”.
+
+        ”tar xvf my_ogg_files.tar” para extrair todo conteúdo do arquivo “my_ogg_files.tar” no diretório corrente.
+
+        ”tar xvf my_ogg_files.tar musica1.ogg” para extrair apenas o arquivo chamado “musica1.ogg” do tarball “my_ogg_files.tar” no diretório corrente.
+
+        NOTA: Arquivos que possuem a extensão .tar.gz podem ser descompactados e extraídos com as opções xzvf do comando tar. Isto corresponde a usar o comando gunzip para descompactar o arquivo TAR e depois usar o comando tar xvf para extrair os arquivos. 
+
+    gzip Compacta e opcionalmente descompacta arquivos regulares. Os arquivos compactados com o comando são substituídos por outro de menor tamanho com a extensão .gz porém preservando o dono, as permissões e datas de acesso e modificação.
+
+        ”gzip arq1 arq2” para compactar os arquivos “arq1” e “arq2” gerando os arquivos “arq1.gz” e “arq2.gz” em substituição aos originais.
+
+        ”gzip -d arq1” para descompactar o arquivo “arq1.gz” trazendo de volta o arquivo original “arq1”. A presença da opção -d equivale ao uso do comando gunzip. 
+
+    bzip2 Compacta e opcionalmente descompacta arquivos regulares. Assim como o gzip, os arquivos compactados com este comando são substituídos por outro de menor tamanho com a extensão .bz2 porém preservando o dono, as permissões e datas de acesso e modificação. O algoritmo empregado por este comando permite uma maior compressão e também segurança dos arquivos gerados, porém o processo se torna um tanto quanto mais demorado.
+
+        ”bzip2 arq1” para compactar o arquivo “arq1” gerando em substituição o arquivo “arq1.bz2”.
+
+        ”bzip2 -9 arq2” para compactar o arquivo “arq2” pelo processo de máxima compressão gerando em substituição o arquivo “arq2.bz2”.
+
+        ”bzip2 -d arquivo.bz2” para descompactar o arquivo “arquivo.bz2” trazendo de volta o(s) arquivo(s) original(is) que tinham sido previamente compactados. 

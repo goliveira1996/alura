@@ -1,0 +1,1 @@
+mysql -D kinoplex_site -e "comando" > baseSplio.sql

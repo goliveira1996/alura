@@ -1,0 +1,10 @@
+PROBLEMA CEP FLIX
+
+Verificar se o CEP existe no site dos correios
+
+Caso exista, ir até o ADV e seguir o caminho para teste: cliente>agencia
+
+Colocar o cep e dar TAB
+
+Após isso caso não apareça enviar um chamado para a Yara pedir que o pessoal insira o CEP na base
+

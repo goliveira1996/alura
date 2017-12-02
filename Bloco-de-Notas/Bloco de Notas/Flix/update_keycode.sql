@@ -1,0 +1,1 @@
+update ExhibitorImportConfig set keyCode = '1f75d74c30dac9ff9fb796d533d74a1e' where exhibitor_id = 12

@@ -1,0 +1,1 @@
+mysqldump Levis --ignore-table=Levis.Perfil --ignore-table=Levis.Usuario --ignore-table=Levis.Permissao --ignore-table=Levis.UsuarioPerfil > Levis-2017-05-02.sql

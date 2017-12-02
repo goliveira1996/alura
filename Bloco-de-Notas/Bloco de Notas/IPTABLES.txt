@@ -1,0 +1,10 @@
+Listar
+
+	iptables -L -n
+
+
+inserir
+
+    iptables -I INPUT 15 -p tcp --dport 3306 -s 200.57.131.146 -j ACCEPT
+
+    iptables -I INPUT 15 -p tcp --dport 3306 -d 200.57.131.146 -j ACCEPT

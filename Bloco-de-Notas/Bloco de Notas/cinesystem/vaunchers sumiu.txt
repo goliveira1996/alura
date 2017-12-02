@@ -1,0 +1,31 @@
+CHAMADO:
+"
+pessoal, bom dia!
+tem uma cliente (Gisele, CPF 36644020810), ela acabou de receber a pontuação máxima de 2400 pts, mas ela diz q tinha vouchers disponíveis de 2100 e de 1800 pontos que sumiram qdo ela recebeu a de 2400. podem verificar? "
+
+
+o que fazer:
+verificar vaunchers resgatados da pessoa na tabela FidVouncherResgate
+
+
+Logar no clube da pipoca com o login da pessoa e ver se os vaunchers estao disponiveis (select na tabela FidParticipanteLogin com id do partipante)
+
+
+
+
+
+
+
+
+brindes :
+
+ID - PONTOS
+1	-	300
+2	-	600
+3	-	900
+4 	-	1200
+5	-	1500
+6	-	1800	
+7	-	2100
+8	-	2400
+

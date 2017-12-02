@@ -1,0 +1,18 @@
+Excluindo dados de vendas do franqueado Levis
+
+Buscando o id do franqueado (Levis)
+
+select * from Loja where code_franqueado = '0d0140174add1dff1c1328b5ef169fb9';
+
+Deletando dados de venda item
+
+delete from ItemVenda where venda_id in ( select id from Venda where code_loja = '006410' and data_venda between '2016-11-30' and '2016-11-30');
+
+Deletando dados de venda
+
+delete from Venda where code_loja = '006410' and data_venda between '2016-11-30' and '2016-11-30';
+
+Verificando dados de Registro após exclusão
+
+delete from Registro where code_remetente = '006410' and data_registro between '2016-11-30' and '2016-11-30' and tipo_registro = 'VENDA';
+

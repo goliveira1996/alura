@@ -1,0 +1,8 @@
+acesso nagios
+
+vigilant.scale.com.br
+
+colocar senha
+
+Usuario: nagiosadmin
+Senha: n@g$c@l3
